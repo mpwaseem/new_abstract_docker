@@ -1,0 +1,30 @@
+{
+  "name": "comely-io/mailer",
+  "description": "Mailer for Comely Apps",
+  "type": "library",
+  "homepage": "https://github.com/comely-io/mailer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Furqan A. Siddiqui",
+      "email": "hello@furqansiddiqui.com",
+      "homepage": "https://www.furqansiddiqui.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-openssl": "*"
+  },
+  "suggest": {
+    "ext-finfo": "PHP fileinfo extension is recommended for E-mail attachments"
+  },
+  "autoload": {
+    "psr-4": {
+      "Comely\\Mailer\\": [
+        "src"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}

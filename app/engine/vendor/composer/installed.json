@@ -1,0 +1,507 @@
+{
+    "packages": [
+        {
+            "name": "comely-io/cache",
+            "version": "1.0.24",
+            "version_normalized": "1.0.24.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/cache.git",
+                "reference": "b49676db1e57691ae464c598bf02e5c7faad73cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/cache/zipball/b49676db1e57691ae464c598bf02e5c7faad73cf",
+                "reference": "b49676db1e57691ae464c598bf02e5c7faad73cf",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/utils": "^1.1.10",
+                "php": "^7.1"
+            },
+            "time": "2019-10-14T07:29:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Cache\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Comely Cache Component (Redis, Memcached, etc...)",
+            "homepage": "https://github.com/comely-io/cache",
+            "support": {
+                "issues": "https://github.com/comely-io/cache/issues",
+                "source": "https://github.com/comely-io/cache/tree/master"
+            },
+            "install-path": "../comely-io/cache"
+        },
+        {
+            "name": "comely-io/cli",
+            "version": "1.0.24",
+            "version_normalized": "1.0.24.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/cli.git",
+                "reference": "2d8c9d751de1c0c4295179974292a8c347a5898e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/cli/zipball/2d8c9d751de1c0c4295179974292a8c347a5898e",
+                "reference": "2d8c9d751de1c0c4295179974292a8c347a5898e",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/filesystem": "^1.0.12",
+                "comely-io/utils": "^1.1.21",
+                "php": "^7.1"
+            },
+            "time": "2019-12-23T00:22:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\CLI\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "CLI utility for Comely Apps",
+            "homepage": "https://github.com/comely-io/cli",
+            "support": {
+                "issues": "https://github.com/comely-io/cli/issues",
+                "source": "https://github.com/comely-io/cli/tree/1.0.24"
+            },
+            "install-path": "../comely-io/cli"
+        },
+        {
+            "name": "comely-io/data-types",
+            "version": "1.0.34",
+            "version_normalized": "1.0.34.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/data-types.git",
+                "reference": "833ecf364a99aa5cd161e0ebd1191860921834c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/data-types/zipball/833ecf364a99aa5cd161e0ebd1191860921834c6",
+                "reference": "833ecf364a99aa5cd161e0ebd1191860921834c6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": "^7.2"
+            },
+            "time": "2020-06-07T14:02:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\DataTypes\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "PHP data types",
+            "homepage": "https://github.com/comely-io/data-types",
+            "support": {
+                "issues": "https://github.com/comely-io/data-types/issues",
+                "source": "https://github.com/comely-io/data-types/tree/master"
+            },
+            "install-path": "../comely-io/data-types"
+        },
+        {
+            "name": "comely-io/db-orm",
+            "version": "1.2.10",
+            "version_normalized": "1.2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/db-orm.git",
+                "reference": "6abf60c035a4bfae5d61d9d6e2f344a6b425242a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/db-orm/zipball/6abf60c035a4bfae5d61d9d6e2f344a6b425242a",
+                "reference": "6abf60c035a4bfae5d61d9d6e2f344a6b425242a",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/data-types": "^1.0.10",
+                "comely-io/utils": "^1.1.10",
+                "ext-pdo": "*",
+                "php": "^7.1"
+            },
+            "time": "2020-03-18T17:14:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Database\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Comely Database & ORM component",
+            "homepage": "https://github.com/comely-io/db-orm",
+            "support": {
+                "issues": "https://github.com/comely-io/db-orm/issues",
+                "source": "https://github.com/comely-io/db-orm/tree/master"
+            },
+            "install-path": "../comely-io/db-orm"
+        },
+        {
+            "name": "comely-io/filesystem",
+            "version": "1.0.13",
+            "version_normalized": "1.0.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/filesystem.git",
+                "reference": "c51106f20343dbd8e5a9e7c49405531fe41cb650"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/filesystem/zipball/c51106f20343dbd8e5a9e7c49405531fe41cb650",
+                "reference": "c51106f20343dbd8e5a9e7c49405531fe41cb650",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "time": "2019-11-07T03:39:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Filesystem\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Local filesystem component for Comely apps",
+            "homepage": "https://github.com/comely-io/filesystem",
+            "support": {
+                "issues": "https://github.com/comely-io/filesystem/issues",
+                "source": "https://github.com/comely-io/filesystem/tree/1.0.13"
+            },
+            "install-path": "../comely-io/filesystem"
+        },
+        {
+            "name": "comely-io/knit",
+            "version": "2.2.11",
+            "version_normalized": "2.2.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/knit.git",
+                "reference": "f940f437ef3a17894bf14c4fdcdacb056fe3db6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/knit/zipball/f940f437ef3a17894bf14c4fdcdacb056fe3db6d",
+                "reference": "f940f437ef3a17894bf14c4fdcdacb056fe3db6d",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/data-types": "^1.0.23",
+                "comely-io/filesystem": "^1.0.10",
+                "comely-io/utils": "^1.1.10",
+                "php": "^7.1"
+            },
+            "time": "2019-11-05T03:13:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Knit\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Knit — official Comely HTML templating engine ",
+            "homepage": "https://github.com/comely-io/knit",
+            "support": {
+                "issues": "https://github.com/comely-io/knit/issues",
+                "source": "https://github.com/comely-io/knit/tree/2.2.11"
+            },
+            "install-path": "../comely-io/knit"
+        },
+        {
+            "name": "comely-io/mailer",
+            "version": "1.0.11",
+            "version_normalized": "1.0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/mailer.git",
+                "reference": "f3648bc0667ed91b2f3ca87c889388ad1e28fc3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/mailer/zipball/f3648bc0667ed91b2f3ca87c889388ad1e28fc3d",
+                "reference": "f3648bc0667ed91b2f3ca87c889388ad1e28fc3d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": "^7.1"
+            },
+            "suggest": {
+                "ext-finfo": "PHP fileinfo extension is recommended for E-mail attachments"
+            },
+            "time": "2020-06-23T04:53:57+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Mailer\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Mailer for Comely Apps",
+            "homepage": "https://github.com/comely-io/mailer",
+            "support": {
+                "issues": "https://github.com/comely-io/mailer/issues",
+                "source": "https://github.com/comely-io/mailer/tree/master"
+            },
+            "install-path": "../comely-io/mailer"
+        },
+        {
+            "name": "comely-io/utils",
+            "version": "1.2.10",
+            "version_normalized": "1.2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/utils.git",
+                "reference": "a831cd812d6b1ab0dcefe4313a1d2d18d8076da8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/utils/zipball/a831cd812d6b1ab0dcefe4313a1d2d18d8076da8",
+                "reference": "a831cd812d6b1ab0dcefe4313a1d2d18d8076da8",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/data-types": "^1.0.23",
+                "ext-openssl": "*",
+                "php": "^7.1"
+            },
+            "time": "2019-11-12T05:59:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Utils\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Utilities for Comely Apps",
+            "homepage": "https://github.com/comely-io/utils",
+            "support": {
+                "issues": "https://github.com/comely-io/utils/issues",
+                "source": "https://github.com/comely-io/utils/tree/master"
+            },
+            "install-path": "../comely-io/utils"
+        },
+        {
+            "name": "comely-io/yaml",
+            "version": "1.0.10",
+            "version_normalized": "1.0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/yaml.git",
+                "reference": "51af2efbcdf0ade83fbe1de8e457dc0395f46a86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/yaml/zipball/51af2efbcdf0ade83fbe1de8e457dc0395f46a86",
+                "reference": "51af2efbcdf0ade83fbe1de8e457dc0395f46a86",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^7.1"
+            },
+            "time": "2019-06-22T16:04:28+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Yaml\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Parse or compile YAML files",
+            "homepage": "https://github.com/comely-io/yaml",
+            "support": {
+                "issues": "https://github.com/comely-io/yaml/issues",
+                "source": "https://github.com/comely-io/yaml/tree/master"
+            },
+            "install-path": "../comely-io/yaml"
+        },
+        {
+            "name": "furqansiddiqui/semaphore-emulator-php",
+            "version": "0.1.2",
+            "version_normalized": "0.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/semaphore-emulator-php.git",
+                "reference": "25234158e874c8ae0408c652a11566593f6b083a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/semaphore-emulator-php/zipball/25234158e874c8ae0408c652a11566593f6b083a",
+                "reference": "25234158e874c8ae0408c652a11566593f6b083a",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/filesystem": "^1.0.13",
+                "ext-openssl": "*",
+                "php": "^7.2"
+            },
+            "time": "2020-01-27T19:41:29+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\SemaphoreEmulator\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Semaphore emulator PHP for resource locking",
+            "homepage": "https://www.furqansiddiqui.com/",
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/semaphore-emulator-php/issues",
+                "source": "https://github.com/furqansiddiqui/semaphore-emulator-php/tree/master"
+            },
+            "install-path": "../furqansiddiqui/semaphore-emulator-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
